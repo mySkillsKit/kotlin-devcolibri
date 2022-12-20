@@ -28,6 +28,20 @@ fun main(args: Array<String>) {
 
     val result = myFirstFunction4(2, 3.2)
     println("result = $result")
+
+    val str: String = "hello"
+    val size = str.length
+    println(size)
+//null
+    val str2: String?
+    str2 = getStr()
+    val size2 = str2!!.length
+    println(size2)
+
+}
+
+fun getStr(): String? {
+    return null
 }
 
 fun myFirstFunction(): Int {
