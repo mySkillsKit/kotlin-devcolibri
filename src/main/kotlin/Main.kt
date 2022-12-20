@@ -26,4 +26,19 @@ fun main(args: Array<String>) {
     var c1: Char = 'a'
     var bool: Boolean = true
 
+    val result = myFirstFunction4(2, 3.2)
+    println("result = $result")
 }
+
+fun myFirstFunction(): Int {
+    return 4
+}
+
+fun myFirstFunction2(abc: Long): Int {
+    return abc.toInt()
+}
+
+fun myFirstFunction3() {
+}
+
+fun myFirstFunction4(a: Long, b: Double) = a + b
