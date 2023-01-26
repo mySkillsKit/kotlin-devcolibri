@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 
     var name: String = "Anat"
     println("Hello $name How are you?")
-    println("Hello \name How are you?")
+    println("Hello \$name How are you?")
 
     var a: Int = 1
     var b: Int = 2
